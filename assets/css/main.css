@@ -196,6 +196,7 @@ input, select, textarea {
 
 	p {
 		/* margin: 0 0 2rem 0; */
+		margin-bottom: 25px;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -2537,7 +2538,7 @@ input, select, textarea {
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2rem 0;
+		/* margin: 0 0 2rem 0; */
 		padding-left: 1rem;
 	}
 
@@ -3159,11 +3160,14 @@ input, select, textarea {
 
 	ul.feature-icons {
 		display: flex;
-		/* flex-wrap: wrap; */
+		justify-content: space-between;
+		flex-direction: row;
+		flex-wrap: wrap;
 		list-style: none;
 		/* padding-left: 0; */
-		padding: 20px 0;
+		/* padding: 20px 0; */
 		/* margin-bottom: 40px; */ 
+		height: 240px;
 }
 
 		ul.feature-icons:first-child {
@@ -3172,9 +3176,10 @@ input, select, textarea {
 
 		ul.feature-icons li {
 			/* margin: 2.5rem 0 0 0; */
-			padding: 0.5rem 0 0 4.5rem;
+			/* padding: 0.5rem 0 0 4.5rem; */
+			padding: 0 4rem;
 			position: relative;
-			width: 50%;
+			/* width: 50%; */
 		}
 
 			ul.feature-icons li:before {
