@@ -247,6 +247,11 @@ input, select, textarea {
 	}
 
 	@media screen and (max-width: 736px) {
+		
+		#wrapper > section.intro > .content {
+  	  		height: 50vh !important;
+    		max-width: none;
+		}
 
 		h1 {
 			font-size: 4.5rem;
