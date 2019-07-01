@@ -2538,8 +2538,8 @@ input, select, textarea {
 
 	ul {
 		list-style: disc;
-		/* margin: 0 0 2rem 0; */
-		padding-left: 1rem;
+		margin: 2rem 0 2rem 0;
+		/* padding-left: 1rem; */
 	}
 
 		ul li {
@@ -3168,6 +3168,7 @@ input, select, textarea {
 		/* padding: 20px 0; */
 		/* margin-bottom: 40px; */ 
 		height: 240px;
+		margin-top: 2rem;
 }
 
 		ul.feature-icons:first-child {
@@ -3177,7 +3178,7 @@ input, select, textarea {
 		ul.feature-icons li {
 			/* margin: 2.5rem 0 0 0; */
 			/* padding: 0.5rem 0 0 4.5rem; */
-			padding: 0 4rem;
+			padding: 0 3rem;
 			position: relative;
 			/* width: 50%; */
 		}
@@ -3192,11 +3193,11 @@ input, select, textarea {
 				font-size: 2.5rem;
 				height: 3.25rem;
 				left: 0;
-				line-height: 3.25rem;
-				position: absolute;
+				/* line-height: 3.25rem; */
+				/* position: absolute; */
 				text-align: center;
 				top: 0;
-				width: 3.25rem;
+				/* width: 3.25rem; */
 			}
 
 			ul.feature-icons li:nth-child(1), ul.feature-icons li:nth-child(2) {
@@ -3206,21 +3207,23 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			ul.feature-icons {
-				margin: 0 0 3rem 0;
+				/* margin: 0 0 3rem 0; */
+				padding-left: 0;
 			}
 
 				ul.feature-icons li {
-					width: 100%;
+					/* width: 100%; */
+					padding: 0 2rem;
 				}
 
 					ul.feature-icons li:nth-child(2) {
-						margin-top: 2rem;
+						/* margin-top: 2rem; */
 					}
 
 		}
 
 /* Wrapper */
-
+   
 	#wrapper {
 		position: relative;
 		width: 100vw;
@@ -3887,5 +3890,5 @@ input, select, textarea {
 
 	}
 .p-class1 {
-	padding-top: 25px;
+	/* padding-top: 25px; */
 }
