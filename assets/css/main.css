@@ -620,6 +620,7 @@ input, select, textarea {
 
 				.row.gtr-uniform > * > :last-child {
 					margin-bottom: 0;
+					padding: 0px;
 				}
 
 				.row.aln-left {
@@ -3183,7 +3184,7 @@ input, select, textarea {
 		ul.feature-icons li {
 			/* margin: 2.5rem 0 0 0; */
 			/* padding: 0.5rem 0 0 4.5rem; */
-			padding: 0 3rem;
+			padding: 3px 3rem;
 			position: relative;
 			/* width: 50%; */
 		}
@@ -3218,7 +3219,7 @@ input, select, textarea {
 
 				ul.feature-icons li {
 					/* width: 100%; */
-					padding: 0 2rem;
+					padding: 2px 2rem;
 				}
 
 					ul.feature-icons li:nth-child(2) {
@@ -3630,6 +3631,7 @@ input, select, textarea {
 
 					#wrapper > section > .content > :last-child {
 						margin-bottom: 0;
+						padding: 0px;
 					}
 
 					#wrapper > section > .content > section {
@@ -3895,5 +3897,5 @@ input, select, textarea {
 
 	}
 .p-class1 {
-	/* padding-top: 25px; */
+	padding-top: 60px;
 }
